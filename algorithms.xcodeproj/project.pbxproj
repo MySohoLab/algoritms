@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C14EC271CAD4E420068A291 /* algoritms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C14EC261CAD4E420068A291 /* algoritms.cpp */; };
 		5C909E691C7B04F10042B090 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C909E681C7B04F10042B090 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C14EC261CAD4E420068A291 /* algoritms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = algoritms.cpp; sourceTree = "<group>"; };
 		5C909E651C7B04F10042B090 /* algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C909E681C7B04F10042B090 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5C909E6F1C7B05340042B090 /* algoritms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = algoritms.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5C909E681C7B04F10042B090 /* main.cpp */,
+				5C909E6F1C7B05340042B090 /* algoritms.h */,
+				5C14EC261CAD4E420068A291 /* algoritms.cpp */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C909E691C7B04F10042B090 /* main.cpp in Sources */,
+				5C14EC271CAD4E420068A291 /* algoritms.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +243,7 @@
 				5C909E6E1C7B04F10042B090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
